@@ -11,7 +11,7 @@
 
     <context:annotation-config />
     <context:component-scan base-package="ohtu.verkkokauppa" />
-    <bean id="kirjanpito" class="ohtu.verkkokauppa.Kirjanpito"></bean>
+<!--    <bean id="kirjanpito" class="ohtu.verkkokauppa.Kirjanpito"></bean>
     <bean id="ostoskori" class="ohtu.verkkokauppa.Ostoskori"></bean>
     <bean id="pankki" class="ohtu.verkkokauppa.Pankki">
         <constructor-arg ref="kirjanpito"/>
@@ -24,6 +24,8 @@
         <constructor-arg ref="varasto"/>
         <constructor-arg ref="pankki"/>
         <constructor-arg ref="viitegeneraattori"/>
-    </bean>
+    </bean>-->
+    
+    <!--@Autowired ja @Compontent antavat automaattisesti id:n muodossa luokan nimi -> toLowerCase()-->
 
 </beans>
